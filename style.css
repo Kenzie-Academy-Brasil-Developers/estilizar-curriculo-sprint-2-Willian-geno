@@ -1,3 +1,29 @@
+body{
+	margin: 100px;
+	background-color: #f3f3f3;
+}
+
+.mainDetails{
+	margin: 80px;
+}
+
+.divisoriaTexto{
+	height: 1px;
+	width: 100px;
+	background-color: #dedede;
+}
+
+.divisaoCabessario{
+	height:2px;
+	width: 100%;
+	background-color: #cf8a05;
+}
+
+#mainArea{
+	margin: 0 auto;
+	width: 90%;
+}
+
 .clear {
 	clear: both;
 }
@@ -6,6 +32,7 @@
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	
 }
 
 #name {
@@ -19,9 +46,31 @@
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 72.5%;	
+}
+
+.sectionContent{
+	color: #444444;
+}
+
+.subDetails{
+	height: 15px;
+	font-style: italic;
+	color: #444444;
+}
+
+h2{
+	height: 5px;
+	font-weight: 400;
+}
+
+p{
+	color: #444444;
 }
